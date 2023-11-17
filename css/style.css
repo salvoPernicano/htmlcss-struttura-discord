@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 30vh;
+    background-color: #3161e0;
+}
+
+section{
+    height: 35vh;
+}
+
+section:nth-of-type(even){
+    background-color: #f6f6f6;
+}
+
+footer{
+    height: 40vh;
+    background-color: #23272a;
+}
