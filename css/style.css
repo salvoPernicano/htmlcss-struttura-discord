@@ -2,19 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 header{
-    height: 30vh;
+    height: 40vh;
     background-color: #3161e0;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.h-container {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2.5;
 }
 
 section{
-    height: 35vh;
+    height: 60vh;
 }
 
 section:nth-of-type(even){
     background-color: #f6f6f6;
+}
+
+section:nth-of-type(4){
+    height: 100vh;
 }
 
 footer{
