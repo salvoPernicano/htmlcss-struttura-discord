@@ -35,6 +35,7 @@ section:not(#special) {
     height: 60vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 section:nth-of-type(even) {
@@ -42,6 +43,7 @@ section:nth-of-type(even) {
 }
 
 section:nth-of-type(4) {
+    padding-top: 10%;
     text-align: center;
     height: 100vh;
 }
@@ -51,4 +53,30 @@ section:nth-of-type(4) {
 footer {
     height: 40vh;
     background-color: #23272a;
+}
+
+.social {
+    flex-basis: 25%;
+}
+
+.impressum {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 75%;
+}
+
+ul {
+    list-style: none;
+}
+
+.f-container {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid lightseagreen;
+}
+
+.f2-container {
+    display: flex;
+    justify-content: space-between;
 }
